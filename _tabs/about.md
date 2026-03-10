@@ -34,10 +34,10 @@ The goal of this blog is to:
 
 Feel free to reach out or follow my work:
 
-- 🔗 GitHub: [github.com/lakshaybhatnagar](https://github.com/lakshaybhatnagar)  
-- 🐦 Twitter: [@LakshaySec](https://twitter.com/LakshaySec) *(example)*  
-- 📧 Email: lakshay@example.com  
-
+- 🔗 GitHub: [github.com/lakshay-bhatnagar](https://github.com/lakshay-bhatnagar)  
+- 🐦 X (formerly twitter): [@lkshaybhatnagar](https://x.com/lkshaybhatnagar) 
+- 📧 Email: lakshaybhatnagar22@gmail.com  
+- 💼 LinkedIn: [linkedin.com/in/lakshay-bhatnagar](https://linkedin.com/in/lakshay-bhatnagar)
 ---
 
 > This blog is powered by **[Chirpy](https://chirpy.cotes.page/)**, a Jekyll theme designed for security writeups and technical blogs.  
