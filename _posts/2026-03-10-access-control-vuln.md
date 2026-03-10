@@ -85,7 +85,7 @@ Copy the password shown on the page.
 Navigate to the login page and log in using:
 
 username: administrator
-password: <retrieved_password>
+password: `retrieved_password`
 
 Once logged in successfully, the lab is solved.
 
