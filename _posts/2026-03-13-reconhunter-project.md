@@ -9,7 +9,14 @@ tags: [reconnaissance, bug-bounty, automation, cybersecurity, bash]
 
 ![ReconHunter Report](/assets/img/reconhunter/reconhunter_v_1_3_2.png)
 
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white) ![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Security](https://img.shields.io/badge/Security-Tool-red?style=flat&logo=springsecurity) ![Automation](https://img.shields.io/badge/Maintained-Automation-blueviolet)
+<p>
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  <img src="https://img.shields.io/badge/bash-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white">
+  <img src="https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Security-Tool-red?style=flat&logo=springsecurity">
+  <img src="https://img.shields.io/badge/Maintained-Automation-blueviolet">
+</p>
 
 **ReconHunter** is an automated reconnaissance framework designed to streamline the early stages of web security testing and bug bounty reconnaissance. The tool orchestrates several well-known security utilities into a single automated pipeline that performs attack surface discovery and vulnerability scanning.
 
