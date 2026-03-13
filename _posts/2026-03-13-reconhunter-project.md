@@ -7,6 +7,8 @@ tags: [reconnaissance, bug-bounty, automation, cybersecurity, bash]
 
 ## Overview
 
+![Demo](/assets/img/reconhunter/reconhunter_v_1_3_2.png)
+
 ![Demo](/assets/img/reconhunter/reconhunter_demo.gif)
 
 **ReconHunter** is an automated reconnaissance framework designed to streamline the early stages of web security testing and bug bounty reconnaissance. The tool orchestrates several well-known security utilities into a single automated pipeline that performs attack surface discovery and vulnerability scanning.
