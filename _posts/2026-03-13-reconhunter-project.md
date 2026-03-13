@@ -136,6 +136,7 @@ The generated HTML report helps visualize reconnaissance results and quickly ide
 ![ReconHunter Report](/assets/img/reconhunter/dashboard_1.png)
 ![ReconHunter Report](/assets/img/reconhunter/dashboard_2.png)
 ![ReconHunter Report](/assets/img/reconhunter/dashboard_3.png)
+![ReconHunter Report](/assets/img/reconhunter/dashboard_4.png)
 
 ---
 
