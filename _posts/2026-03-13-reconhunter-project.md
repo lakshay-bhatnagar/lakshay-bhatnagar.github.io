@@ -5,7 +5,7 @@ category: [Projects]
 tags: [reconnaissance, bug-bounty, automation, cybersecurity, bash]
 ---
 
-## Overview
+## Overview 🔍
 
 ![Demo](/assets/img/reconhunter/reconhunter_v_1_3_2.png)
 
@@ -17,7 +17,7 @@ The goal of ReconHunter is to reduce the manual effort required during reconnais
 
 ---
 
-## Motivation
+## 🎯 Motivation
 
 During bug bounty reconnaissance, researchers typically run multiple tools separately to enumerate assets, discover open ports, identify technologies, and scan for vulnerabilities. This manual workflow can be time-consuming and repetitive.
 
@@ -25,7 +25,7 @@ ReconHunter was built to automate this workflow by chaining multiple reconnaissa
 
 ---
 
-## Features
+## 🚀 Features
 
 * Automated **subdomain enumeration**
 * **Live host detection**
@@ -39,7 +39,7 @@ ReconHunter was built to automate this workflow by chaining multiple reconnaissa
 
 ---
 
-## Recon Pipeline
+## ⚙️ Recon Pipeline
 
 The tool follows a structured reconnaissance workflow:
 
@@ -57,7 +57,7 @@ The tool follows a structured reconnaissance workflow:
 
 ---
 
-## Tools Used
+## 🛠️ Tools Used
 
 ReconHunter integrates several popular reconnaissance tools:
 
@@ -79,12 +79,12 @@ These tools work together to provide a complete view of the target's attack surf
 
 ---
 
-## Installation
+## 📥 Installation
 
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/reconhunter.git
+git clone https://github.com/lakshay-bhatnagar/reconhunter.git
 cd reconhunter
 ```
 
@@ -99,19 +99,85 @@ The script automatically installs required dependencies and tools.
 
 ---
 
-## Usage
+## 🧩 Modes
 
-Run the tool against a target domain:
+ReconHunter supports multiple scanning modes:
+
+### Fast Mode
+
+Quick reconnaissance for rapid attack surface discovery.
+
+Includes:
+
+* Subdomain enumeration
+* HTTP probing
+* DNS resolution
+* URL gathering
+* Nuclei scanning
+* Report generation
 
 ```
-./reconhunter.sh example.com
+reconhunter -d example.com --fast
+```
+
+---
+
+### Full Mode
+
+Complete reconnaissance pipeline including all features.
+
+```
+reconhunter -d example.com --full
+```
+
+---
+
+### Scan Mode
+
+Runs vulnerability scanning on existing discovered assets.
+
+```
+reconhunter -d example.com --scan
+```
+---
+
+## 📌 Usage
+
+Basic usage:
+
+```
+./reconhunter.sh -d example.com --full
+```
+
+Custom output directory:
+
+```
+./reconhunter.sh -d example.com --full -o results
+```
+
+Active Enumeration Scanning:
+
+```
+./reconhunter.sh -d example.com --fast --active
+```
+
+Display help:
+
+```
+./reconhunter.sh --help
+```
+
+Display version
+
+```
+./reconhunter.sh --version
 ```
 
 ReconHunter will automatically execute the reconnaissance pipeline and store results inside the `reports` directory.
 
 ---
 
-## Output Structure
+## ✅ Output Structure
 
 Example output directory:
 
@@ -133,7 +199,7 @@ The generated HTML report helps visualize reconnaissance results and quickly ide
 
 ---
 
-## Example Screenshot
+## 📊 Example Screenshot
 
 ![ReconHunter Report](/assets/img/reconhunter/dashboard_1.png)
 ![ReconHunter Report](/assets/img/reconhunter/dashboard_2.png)
