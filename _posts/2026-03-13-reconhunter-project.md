@@ -83,14 +83,14 @@ These tools work together to provide a complete view of the target's attack surf
 
 Clone the repository:
 
-```
+```bash
 git clone https://github.com/lakshay-bhatnagar/reconhunter.git
 cd reconhunter
 ```
 
 Run the installation script:
 
-```
+```bash
 chmod +x install.sh
 ./install.sh
 ```
@@ -116,7 +116,7 @@ Includes:
 * Nuclei scanning
 * Report generation
 
-```
+```bash
 reconhunter -d example.com --fast
 ```
 
@@ -126,7 +126,7 @@ reconhunter -d example.com --fast
 
 Complete reconnaissance pipeline including all features.
 
-```
+```bash
 reconhunter -d example.com --full
 ```
 
@@ -136,7 +136,7 @@ reconhunter -d example.com --full
 
 Runs vulnerability scanning on existing discovered assets.
 
-```
+```bash
 reconhunter -d example.com --scan
 ```
 ---
@@ -145,31 +145,31 @@ reconhunter -d example.com --scan
 
 Basic usage:
 
-```
+```bash
 ./reconhunter.sh -d example.com --full
 ```
 
 Custom output directory:
 
-```
+```bash
 ./reconhunter.sh -d example.com --full -o results
 ```
 
 Active Enumeration Scanning:
 
-```
+```bash
 ./reconhunter.sh -d example.com --fast --active
 ```
 
 Display help:
 
-```
+```bash
 ./reconhunter.sh --help
 ```
 
 Display version
 
-```
+```bash
 ./reconhunter.sh --version
 ```
 
@@ -230,6 +230,6 @@ ReconHunter simplifies the reconnaissance phase of security testing by combining
 
 Source code available here:
 
-https://github.com/lakshay-bhatnagar/ReconHunter
+🔗 GitHub: [github.com/lakshay-bhatnagar/ReconHunter](https://github.com/lakshay-bhatnagar/ReconHunter)  
 
 ---
